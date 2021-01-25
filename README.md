@@ -7,7 +7,7 @@ I would like to be able to list bookmarks
 
 ## Domain model:
 
-Nouns  | Property or Owner of Poperty
+Nouns  | Property or Owner of Property
 ------------- | -------------
 bookmarks  |  Owner of URLs
 
