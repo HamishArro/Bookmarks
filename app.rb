@@ -11,6 +11,7 @@ class BookmarkManager < Sinatra::Base
   #For testing purposes only, was testing infrastructure
   get '/' do
     'Hello world!'
+    redirect '/bookmarks'
   end
 
   get '/bookmarks' do
