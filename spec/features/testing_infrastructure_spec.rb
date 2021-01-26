@@ -2,7 +2,7 @@ feature 'testing infrastructure' do
 
   scenario 'displays hello world' do
     visit('/')
-    expect(page).to have_content('Hello world!')
+    expect(page.status_code).to eq 200
   end
 
 end
