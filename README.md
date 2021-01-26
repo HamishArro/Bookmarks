@@ -26,7 +26,7 @@ list_bookmarks  |  bookmarks([URLs])
 
 ## Set up
 
-1. connect to `dsa`
+1. connect to `psql`
 
 2. Create the database using the `psql` command `CREATE DATABASE bookmark_manager;`
 

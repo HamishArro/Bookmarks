@@ -1,6 +1,27 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/hamisharro/Projects/Makers/Week_4/Bookmarks/spec/bookmark_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/hamisharro/Projects/Makers/Week_4/Bookmarks/spec/features/testing_infrastructure_spec.rb": {
         "lines": [
           1,
@@ -12,8 +33,29 @@
           null,
           null
         ]
+      },
+      "/Users/hamisharro/Projects/Makers/Week_4/Bookmarks/spec/features/viewing_bookmarks_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1611585824
+    "timestamp": 1611595948
   }
 }
