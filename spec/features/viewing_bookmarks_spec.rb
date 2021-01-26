@@ -6,6 +6,12 @@ feature 'viewing bookmarks' do
   end
 
   scenario 'Can see a list of bookmarks' do
+    connection = PG.connect(dbname: 'bookmark_manager_test')
+    connection.exec("INSERT INTO bookmarks (url) VALUES('https://www.youtube.com/')")
+    connection.exec("INSERT INTO bookmarks (url) VALUES('https://twitter.com/')")
+    connection.exec("INSERT INTO bookmarks (url) VALUES('https://www.instagram.com/')")
+    connection.exec("INSERT INTO bookmarks (url) VALUES('https://onlyfans.com/')")
+
     visit('/bookmarks')
     
     expect(page).to have_content("https://www.youtube.com/")
